@@ -1,0 +1,71 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1{
+    margin-bottom: -5%;
+}
+
+#title{
+    position: fixed;
+    top: 37%;
+    left: 43.5%;
+    text-align: center;
+}
+
+#menu{
+    padding-top: 120%;
+}
+
+.back{
+    padding-left: 2%;
+}
+
+#text{
+    padding-left: 1.5%;
+    margin-bottom: 1%;
+}
+
+a{
+    color: black;
+}
+
+#header{
+    padding-left: 1%;
+}
+
+.playlist{
+    margin-bottom: 1%;
+}
+
+img{
+    position: fixed;
+    top: 26.5%;
+    left: 46.9%;
+    width: 7%;
+
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
+
+/* Media Query for Phones */
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 25%;
+        left: 38%;
+    }
+    #title{
+        top: 36%;
+        left: 24%;
+    }
+}
